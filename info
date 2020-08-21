@@ -1,0 +1,23 @@
+Create a program with one package called journalist.
+In the package, create a struct to hold a journalist's information e.g name, gender, employee number, age  and id number.
+In the journalist package, create a method to validate the journalist information using the following rules:
+- The journalist must be 20 years of age.
+- All the other information must NOT be blank.
+In the main package, create two journalists: journalistOne and journalistTwo and give them data
+Check if the information of each journalist is valid.
+If the information is valid, print "The information is valid" otherwise print "Go away, Imposter"
+
+Journalist{
+		Name:            "maxine mwanda",
+		Gender:          "Female",
+		Age:             23,
+		Employee_number: 3001,
+		Id_number:       123459,
+	}
+Jouranlist2{
+	Name:            "ali mansa",
+	Gender:          "male",
+	Age:             19,
+	Employee_number: 3009,
+	Id_number:       726763,
+}
